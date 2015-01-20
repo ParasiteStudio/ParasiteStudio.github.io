@@ -1,0 +1,677 @@
+@font-face {
+    font-family: 'Linux_Libertine';
+    src: url('LinLibertine_R.ttf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body {  
+   font-family:  'Linux_Libertine';
+  background-color: #ADC4CC;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  color: #3d3329;
+}
+
+
+
+
+
+
+p {  
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+img {  
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6, h8 {  
+  color: #3d3329;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;
+    padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+h1, h2, h4, h8 {  
+  font: normal 200% 'Linux_Libertine';
+  text-shadow: 0px 0px #3d3329;
+  margin: 0 0 15px 0;
+  padding: 15px 20px 5px 0;
+  color: #3d3329;
+}
+
+h1 {
+	font: normal 170% 'Linux_Libertine';
+}
+
+h2 {  
+  font: normal 200% 'Linux_Libertine';
+}
+
+h4 {  
+  font: normal 200% 'Linux_Libertine';
+  padding: 5px 20px 5px 0;
+  margin: 0;
+  color: #3d3329;
+}
+
+h3 {  
+
+  color: #3d3329;
+  padding: 10px 0 5px 0;
+  font: normal 200% 'Linux_Libertine';
+    padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+h5 {  
+
+  color: #3d3329;
+  font: normal 150% 'Linux_Libertine';
+  letter-spacing: normal;
+  padding: 0 0 15px 0;
+}
+
+h6 {  
+  padding: 5px 0 25px 0;
+}
+
+h7 {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+
+	  
+	}
+
+
+h8 {
+	font: normal 130% 'Linux_Libertine';
+}
+	
+	
+a, a:hover {  
+  outline: none;
+  color: #993311;
+  text-decoration: none;
+}
+
+a:hover {  
+  text-decoration: none;
+}
+
+blockquote {  
+  margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+}
+
+
+
+
+
+ul {  
+  margin: 2px 0 22px 17px;
+}
+
+ul li {  
+  list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+ol {  
+  margin: 8px 0 22px 20px;
+}
+
+ol li {  
+  margin: 0 0 11px 0;
+}
+
+.left { 
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.right { 
+  float: right; 
+  width: auto;
+  margin-left: 10px;
+}
+
+.center { 
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#main, #logo, nav, #site_content, footer {  
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ADC4CC;
+}
+
+header {
+  background: #DD5F32 url('../images/main.jpg') scroll no-repeat center;
+  background-size:contain;
+  height: 500px;
+}
+
+#logo { 
+  width: 1000px;
+  height: 503px;
+  background: transparent;
+  color: #888;
+  padding: 0 0 0 0;  
+}
+
+/*header {  
+  background: #202020 url(../Image/back.png) repeat-x;
+  height: 693px;
+}
+
+#logo {  
+  width: 1336px;
+  position: relative;
+  height: 500px;
+  background: url(../Image/TopBanner.jpg) no-repeat bottom right;
+  
+ }
+ 
+ */
+#backbox{
+	background: #333333;
+	border-radius: 4px;
+	margin: 0 auto;
+	width: ;
+	opacity:0.52;
+	overflow: auto;
+	
+}
+
+
+
+
+/* Image Transitions */
+ul#images {
+  margin: 0 15px 10px 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+ul#images li {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  float: left;
+  width: 100px;
+  height: 500px;
+}
+
+
+
+
+
+
+  
+  
+  .content_image
+{ float: left;
+  width: 170px;
+  height: 170px;
+  margin: 0 20px 10px 0;
+  padding: 10px;
+  -moz-box-shadow:    inset 0 0 20px #ADADAD;
+  -webkit-box-shadow: inset 0 0 20px #ADADAD;
+  box-shadow:         inset 0 0 20px #ADADAD;}
+  
+  
+  
+  .content_cus
+{ float: left;
+  width: 300px;
+  height: 150px;
+  margin: 0 10px 10px 1cm;
+  padding: 10px;
+  -moz-box-shadow:    inset 0 0 20px #ffffff;
+  -webkit-box-shadow: inset 0 0 20px #ffffff;
+  box-shadow:         inset 0 0 20px #ffffff;}
+
+  .content_cusr
+{ float: right;
+  width: 300px;
+  height: 150px;
+  margin: 0 1cm 10px 10px;
+  padding: 10px;
+  -moz-box-shadow:    inset 0 0 20px #ffffff;
+  -webkit-box-shadow: inset 0 0 20px #ffffff;
+  box-shadow:         inset 0 0 20px #ffffff;}
+
+
+  .content_cusb
+{ float: center;
+  width: 240px;
+  height: 141px;
+  margin: 0 10px 10px 0;
+  padding: 5px;
+  -moz-box-shadow:    inset 0 0 20px #441105;
+  -webkit-box-shadow: inset 0 0 20px #441105;
+  box-shadow:         inset 0 0 20px #441105;}
+
+
+.content_container
+{ width: 285px;
+  padding: 5px;
+  margin: 10px 10px 20px 0;
+  padding-left: 1cm;
+  float: left;}
+
+
+
+
+#logo h1, #logo h2 { 
+  font: normal 220%  'goudy_bookletter_1911regular';
+  border-bottom: 0;
+  text-transform: none;
+  text-shadow: none;
+  margin: 0;
+}
+
+#logo h2 { 
+  font: normal 140% 'goudy_bookletter_1911regular';
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
+  padding: 25px 0 0 0;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour { 
+  color: #09D4FF;
+  text-shadow: 0;
+}
+
+#logo_text a:hover .logo_colour { 
+  color: #FFF;
+}
+
+#logo_text h2 { 
+  padding: 0 0 0 0;
+  color: #A8AA94;
+}
+
+nav {  
+  width: 935px;
+  height: 44px;
+  padding: 0 0 0 250px;
+} 
+
+#site_content { 
+  width: 1024px;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 0;
+  border-radius: 4px;
+  background-color: #ADC4CC;
+}
+
+
+
+#content{  
+  text-align: left;
+  width: 800px;
+  padding: 0 0 0 25px;
+  float: left;
+}
+  
+#content ul { 
+  margin: 2px 0 22px 0px;
+}
+
+#content ul li, .sidebar ul li { 
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 28px;
+  line-height: 1.5em;
+}
+
+
+
+
+ .button_small
+{ font: normal 110% 'goudy_bookletter_1911regular';
+  width: 91px;
+  padding: 5px 2px 7px 0px;
+  background: #0043A8;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+  
+.button_small a
+{ color: #FFF;
+  text-shadow: 1px 1px #000;
+  padding-left: 0px;}
+
+
+footer {  
+  width: 100%;
+  font-family:'goudy_bookletter_1911regular';
+  font-size: 100%;
+  height: 80px;
+  padding: 25px 0 5px 0;
+  text-align: center; 
+  background: #4298B5;
+  color: #000000;
+}
+
+footer p {  
+  line-height: 1.5em;
+  padding: 0 0 10px 0;
+}
+
+footer a {  
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {  
+  color: #FFF;
+  text-decoration: none;
+}
+
+.form_settings { 
+  margin: 15px 0 0 0;
+}
+
+.form_settings p { 
+  padding: 0 0 4px 0;
+}
+
+.form_settings span { 
+  float: left; 
+  width: 200px; 
+  text-align: left;
+}
+  
+.form_settings input, .form_settings textarea { 
+  padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+  
+.form_settings .submit { 
+  font: 100% arial; 
+  border: 0; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+
+.form_settings textarea, .form_settings select { 
+  font: 100% arial; 
+  width: 299px;
+}
+
+.form_settings select { 
+  width: 310px;
+}
+
+.form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+.separator { 
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;
+}
+  
+table { 
+  margin: 10px 0 30px 0;
+}
+
+table tr th, table tr td { 
+  background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;
+}
+  
+table tr td { 
+  background: #E5E5DB;
+  color: #47433F;
+  border-top: 1px solid #FFF;
+}
+
+/* scroll to top */
+#scroll { 
+  position: relative; 
+  width: 900px;
+  margin: 10px auto;
+  bottom: 15px; 
+  right: 0;
+  background: red;
+  padding: 0;
+}
+  
+#scroll a { 
+  float: right;
+  margin: 0 0 0 0; 
+  padding: 0 0 0 0;
+}
+  
+#scroll a img { 
+  float: right;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+
+/* Configuration of menu width */
+html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+  width: 285px;
+}
+
+html body ul.sf-menu ul ul { 
+  margin: 0 0 0 285px;
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,ul.sf-menu * { 
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  
+ul.sf-menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+}
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+  
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+
+
+
+
+
+
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;
+}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}
+
+/* autoArrows CSS */
+span.sf-arrow { 
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  display: block;
+  background: url(../images/arrows-black.png) no-repeat 0 0;
+  overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+  font-size: 1px;
+}
+
+ul ul span.sf-arrow { 
+  right: 10;
+  top: 20px;
+  background-position: 0 100%;
+}
+
+/* Theming the menu */
+ul#nav { 
+  float: left;
+}
+
+ul#nav ul { 
+  background: url(../images/hover.png);
+  margin-top: 0;
+  border: 1px solid #ddd;
+}
+
+ul#nav li a { 
+  padding:9px 25px 10px 25px;
+  font: 155% 'Linux_Libertine',helvetica,arial,verdana,sans;
+  text-shadow: 1px 1px #FFF;
+  text-decoration:none;
+  color: #000;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected { 
+  background: url(../images/hover.png);
+}
+
+
+
+/* Image Transitions */
+ul#images {
+  margin: 0 15px 10px 0;
+  padding: 0;
+  position: relative;
+}
+
+ul#images li {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  float: left;
+  width: 120px;
+  height: 500px;
+  list-style: none;
+}

@@ -1,9 +1,16 @@
 @font-face {
-    font-family: 'Linux_Libertine';
+    font-family: 'Linux';
     src: url('LinLibertine_R.ttf');
     font-weight: normal;
     font-style: normal;
-} 
+}
+
+@font-face {
+    font-family: 'Mount';
+    src: url('Mount.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html { 
   height: 100%;
@@ -20,7 +27,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 }
 
 body {  
-   font-family:  'Linux_Libertine';
+   font-family:  'Linux';
   background-color: #ADC4CC;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,10 +38,6 @@ body {
 }
 
 
-
-
-
-
 p {  
   padding: 0 0 20px 0;
   line-height: 1.7em;
@@ -42,8 +45,9 @@ p {
   padding-right: 1cm;
 }
 
-img {  
+div.content_cusb img {
   border: 0;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, h8 {  
@@ -54,24 +58,42 @@ h1, h2, h3, h4, h5, h6, h8 {
   padding-right: 1cm;
 }
 
-h1, h2, h4, h8 {  
-  font: normal 200% 'Linux_Libertine';
+h1, h2, h4, h8, title1, title2 {
+  font: normal 200% 'Linux';
   text-shadow: 0px 0px #3d3329;
   margin: 0 0 15px 0;
   padding: 15px 20px 5px 0;
   color: #3d3329;
 }
 
+title1 {
+    font: normal 600% 'Mount';
+    color: #E60000;
+    display: inline-block;
+      padding: 0px;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+}
+
+title2 {
+    font: normal 400% 'Mount';
+    color: #FFF;
+    display: inline-block;
+          padding: 0px;
+    -webkit-text-stroke-width: 2px;
+         -webkit-text-stroke-color: black;
+}
+
 h1 {
-	font: normal 170% 'Linux_Libertine';
+	font: normal 170% 'Mount';
 }
 
 h2 {  
-  font: normal 200% 'Linux_Libertine';
+  font: normal 200% 'Linux';
 }
 
 h4 {  
-  font: normal 200% 'Linux_Libertine';
+  font: normal 200% 'Linux';
   padding: 5px 20px 5px 0;
   margin: 0;
   color: #3d3329;
@@ -81,7 +103,7 @@ h3 {
 
   color: #3d3329;
   padding: 10px 0 5px 0;
-  font: normal 200% 'Linux_Libertine';
+  font: normal 200% 'Linux';
     padding-left: 1cm;
   padding-right: 1cm;
 }
@@ -89,7 +111,7 @@ h3 {
 h5 {  
 
   color: #3d3329;
-  font: normal 150% 'Linux_Libertine';
+  font: normal 150% 'Linux';
   letter-spacing: normal;
   padding: 0 0 15px 0;
 }
@@ -107,13 +129,13 @@ h7 {
 
 
 h8 {
-	font: normal 130% 'Linux_Libertine';
+	font: normal 130% 'Linux';
 }
 	
 	
 a, a:hover {  
   outline: none;
-  color: #993311;
+  color: #DD5F32;
   text-decoration: none;
 }
 
@@ -194,9 +216,8 @@ hr:after {
 }
 
 header {
-  background: #DD5F32 url('../images/main.jpg') scroll no-repeat center;
+  background: #4298B5; /* url('../images/main.jpg') scroll no-repeat center; */
   background-size:contain;
-  height: 500px;
 }
 
 #logo { 
@@ -250,12 +271,6 @@ ul#images li {
   width: 100px;
   height: 500px;
 }
-
-
-
-
-
-
   
   
   .content_image
@@ -294,12 +309,12 @@ ul#images li {
   .content_cusb
 { float: center;
   width: 240px;
-  height: 141px;
+  height: 180px;
   margin: 0 10px 10px 0;
   padding: 5px;
-  -moz-box-shadow:    inset 0 0 20px #441105;
-  -webkit-box-shadow: inset 0 0 20px #441105;
-  box-shadow:         inset 0 0 20px #441105;}
+  -moz-box-shadow:    inset 0 0 20px #DD5F32;
+  -webkit-box-shadow: inset 0 0 20px #DD5F32;
+  box-shadow:         inset 0 0 20px #DD5F32;}
 
 
 .content_container
@@ -310,10 +325,8 @@ ul#images li {
   float: left;}
 
 
-
-
 #logo h1, #logo h2 { 
-  font: normal 220%  'goudy_bookletter_1911regular';
+  font: normal 220%  'Mount';
   border-bottom: 0;
   text-transform: none;
   text-shadow: none;
@@ -321,7 +334,7 @@ ul#images li {
 }
 
 #logo h2 { 
-  font: normal 140% 'goudy_bookletter_1911regular';
+  font: normal 140% 'Mount';
 }
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
@@ -384,7 +397,7 @@ nav {
 
 
  .button_small
-{ font: normal 110% 'goudy_bookletter_1911regular';
+{ font: normal 110% 'Linux';
   width: 91px;
   padding: 5px 2px 7px 0px;
   background: #0043A8;
@@ -406,7 +419,7 @@ nav {
 
 footer {  
   width: 100%;
-  font-family:'goudy_bookletter_1911regular';
+  font-family:'Linux';
   font-size: 100%;
   height: 80px;
   padding: 25px 0 5px 0;
@@ -647,14 +660,10 @@ ul#nav ul {
 
 ul#nav li a { 
   padding:9px 25px 10px 25px;
-  font: 155% 'Linux_Libertine',helvetica,arial,verdana,sans;
+  font: 155% 'Linux',helvetica,arial,verdana,sans;
   text-shadow: 1px 1px #FFF;
   text-decoration:none;
   color: #000;
-}
-
-ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected { 
-  background: url(../images/hover.png);
 }
 
 
